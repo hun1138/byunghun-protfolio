@@ -19,7 +19,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="portfolio, web, developer, front end, back end, javascript, python, react, vue"
+          content="byunghun lee, 이병훈, portfolio, 포트폴리오, web, 웹, developer, 개발자, front end, 프론트엔드, 프론트앤드, back end, 백엔드, 백앤드, javascript, 자바스크립트, python, 파이썬, 파이선, react, 리엑트, 리액트, vue, 뷰"
         />
 
         <title>Byunghun's Portfolio - Developer</title>
