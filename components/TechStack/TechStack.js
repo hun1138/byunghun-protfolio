@@ -41,7 +41,7 @@ Other : CNN, YOLO, tensorflow, AWS Lambda
           content={"card content 3"}
         />
         <TechStackItem
-          imgSrc={"/tech-logo-img/java-logo.png"}
+          imgSrc={"/tech-logo-img/Java-Logo.png"}
           title={"card title 7"}
           content={"card content 5"}
         />
