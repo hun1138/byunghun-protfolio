@@ -10,10 +10,12 @@ export default function AboutMe() {
         <h2>About Me</h2>
       </Col>
       <Row className="justify-content-md-center">
+        {/*
         <Col sm={6}>
           <ContactMe />
         </Col>
-        <Col sm={6}>
+        6*/}
+        <Col sm={12}>
           <ListGroup variant="flush">
             <ListGroup.Item>알고리즘을 좋아하는 개발자 입니다</ListGroup.Item>
             <ListGroup.Item>
