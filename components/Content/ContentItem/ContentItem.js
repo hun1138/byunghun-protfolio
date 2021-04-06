@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 
-export default function ContentItem({ category, info }) {
+export default function ContentItem({ category, info, dateStr }) {
 
     const infoList = () => {
         return (
@@ -14,8 +14,9 @@ export default function ContentItem({ category, info }) {
       <Row className="justify-content-center" style={{ margin: "15px 0 15px 0"}}>
         <Col xs={10} sm={5} md={4} lg={3}>
           <div className="content-subtitle">{category}</div>
+          {dateStr && <div className="content-date">{dateStr}</div>}
         </Col>
-        <Col xs={12} sm={10} md={6} lg={4}>
+        <Col xs={12} sm={10} md={6} lg={4} style={{paddingTop: "15px"}}>
           {infoList()}
         </Col>
       </Row>

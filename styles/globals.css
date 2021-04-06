@@ -21,8 +21,7 @@ a {
 }
 
 .content-margin {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 50px 0 50px 0;
 }
 
 .content-title {
@@ -35,8 +34,12 @@ a {
   border-bottom: 1px solid #e4eaec;
 }
 
-.content-subtitle {
-  padding-bottom: 30px;
-  font-size: 1.5rem;
+.content-subtitle {  
+  font-size: 1.3em;
   font-weight: 600;
+}
+
+.content-date {  
+  font-size: 1.0em;
+  font-weight: 300;
 }
