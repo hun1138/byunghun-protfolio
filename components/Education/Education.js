@@ -37,8 +37,7 @@ export default function Education() {
       info: [
         {
           title: "인공지능 국비과정 교육 수료",
-          text: `- 시각장애인 보행도우미 앱 개발
-          - GDG는 구글이 멘토가 되어 학생들에게 여러 정보를 주는 동아리 입니다.`,
+          text: `- 시각장애인 보행도우미 앱 개발`,
         },
       ],
       dateStr: "2019.05 ~ 2019.11",
