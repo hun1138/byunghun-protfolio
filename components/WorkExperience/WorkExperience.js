@@ -74,7 +74,10 @@ export default function WorkExperience() {
     },
   ];
   return (
-    <Container id="WorkExperience_id" className="content-margin content-scroll-margin">
+    <Container
+      id="WorkExperience_id"
+      className="content-margin content-scroll-margin"
+    >
       <Content title={"Work Experience"} data={data} />
     </Container>
   );

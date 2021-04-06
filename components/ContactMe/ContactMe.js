@@ -11,7 +11,11 @@ export default function ContactMe() {
   }, []);
 
   return (
-    <Container id="ContactMe_id" className="content-scroll-margin" style={{ minHeight: windowHeight }}>
+    <Container
+      id="ContactMe_id"
+      className="content-scroll-margin"
+      style={{ minHeight: windowHeight }}
+    >
       <Row
         className={`justify-content-center align-items-center ${styles.introStyle}`}
       >
@@ -36,7 +40,15 @@ export default function ContactMe() {
           />
         </Col>
         <Col xs={9} sm={7} md={6} lg={5} xl={4} className={styles.infoMargin}>
-          <h3 style={{ color: "#85144b", fontWeight: "bolder", fontSize: "1.7rem" }}>Contact & Channel</h3>
+          <h3
+            style={{
+              color: "#85144b",
+              fontWeight: "bolder",
+              fontSize: "1.7rem",
+            }}
+          >
+            Contact & Channel
+          </h3>
 
           <ul className={styles.listStyle}>
             <li>

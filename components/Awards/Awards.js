@@ -12,7 +12,7 @@ export default function Awards() {
         "팀 리더, 핵심 기술 개발",
         "Java 사용",
       ],
-      dateStr: "2018.7"
+      dateStr: "2018.7",
     },
     {
       category: "숭실대학교 IT대학 소프트웨어 공모전",
@@ -22,25 +22,25 @@ export default function Awards() {
         "팀 리더, Android 개발",
         "Java 사용",
       ],
-      dateStr: "2017.09"
+      dateStr: "2017.09",
     },
     {
       category: "한국 정보올림피아드 고등부 전국본선",
       subCategory: "장려상",
       info: ["C언어 사용"],
-      dateStr: "2010.07"
+      dateStr: "2010.07",
     },
     {
       category: "한국 정보올림피아드 고등부 지역본선",
       subCategory: "금상",
       info: ["대전지역 1위", "C언어 사용"],
-      dateStr: "2010.04"
+      dateStr: "2010.04",
     },
     {
       category: "한국 정보올림피아드 고등부 지역본선",
       subCategory: "동상",
       info: ["대전지역 5위", "C언어 사용"],
-      dateStr: "2009.04"
+      dateStr: "2009.04",
     },
   ];
   return (

@@ -28,7 +28,7 @@ export default function Education() {
           title: "GDG (Google Developers Group) 동아리",
           text: `- 숭실대학교 중앙동아리
           - GDG는 구글이 멘토가 되어 학생들에게 여러 정보를 주는 동아리 입니다.`,
-        }
+        },
       ],
       dateStr: "2011.03 ~ 2020.02",
     },
@@ -45,7 +45,10 @@ export default function Education() {
     },
   ];
   return (
-    <Container id="Education_id" className="content-margin content-scroll-margin">
+    <Container
+      id="Education_id"
+      className="content-margin content-scroll-margin"
+    >
       <Content title={"Education"} data={data} />
     </Container>
   );
