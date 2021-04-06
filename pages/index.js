@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
 
       <PortNavbar />
-      <Introduction />
+      {/*<Introduction />*/}
 
       <main>
         <AboutMe />
