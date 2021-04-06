@@ -6,16 +6,17 @@ import styles from "../../styles/AboutMe.module.css";
 export default function AboutMe() {
   return (
     <Container id="AboutMe_id" className="content-margin">
-      <Col md={12} className="content-title">
-        <h2>About Me</h2>
+      <Row>
+      <Col>
+        <div className="content-title">About Me</div>
       </Col>
+      </Row>
+      
       <Row className="justify-content-md-center">
-        {/*
-        <Col sm={6}>
-          <ContactMe />
+      <Col md={6}>
+        <div className="content-subtitle" style={{paddingTop: "5px"}}>Introduction</div>
         </Col>
-        6*/}
-        <Col sm={12}>
+        <Col md={6}>
           <ListGroup variant="flush">
             <ListGroup.Item>알고리즘을 좋아하는 개발자 입니다</ListGroup.Item>
             <ListGroup.Item>

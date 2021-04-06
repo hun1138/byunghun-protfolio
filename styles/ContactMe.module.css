@@ -17,12 +17,12 @@
 }
 
 .helloStyle {
-  font-size: 50px;
+  font-size: 2.9rem;
   margin-bottom: 30px;
 }
 
 .nameStyle {
-  font-size: 27px;
+  font-size: 1.4rem;
   font-weight: bold;
   display: inline;
 }

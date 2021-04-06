@@ -7,7 +7,7 @@ export default function ContactMe() {
   const [windowHeight, setWindowHeight] = useState(null);
 
   useEffect(() => {
-    setWindowHeight(window.screen.availHeight - 72);
+    setWindowHeight(window.screen.availHeight - 240);
   }, [])
 
   return (
@@ -15,8 +15,8 @@ export default function ContactMe() {
       <Row className={`justify-content-center align-items-center ${styles.introStyle}`}>
         <Col xs={9} sm={7} md={5}>
         <div className={styles.helloStyle}>안녕하세요!</div>
-            <h4 style={{fontWeight: "lighter"}}>도전을 좋아하는 개발자,</h4>
-            <h4 style={{fontWeight: "lighter"}}><div className={styles.nameStyle}>이병훈</div> 입니다</h4>
+            <h5 style={{fontWeight: "lighter"}}>도전을 좋아하는 개발자,</h5>
+            <h5 style={{fontWeight: "lighter"}}><div className={styles.nameStyle}>이병훈</div> 입니다</h5>
             </Col>
       </Row>
         <Row className={`justify-content-center align-items-center ${styles.contentMargin}`}>
