@@ -3,6 +3,7 @@ import { PortNavbar } from "../components";
 import { Introduction } from "../components";
 import { ContactMe } from "../components";
 import { AboutMe, TechStack, Timeline } from "../components";
+import { WorkExperience, Education } from "../components";
 import { Footer } from "../components";
 
 import styles from "../styles/Home.module.css";
@@ -41,6 +42,7 @@ export default function Home() {
       <main>
         <AboutMe />
         <TechStack />
+        <WorkExperience />
         <Timeline />
       </main>
 

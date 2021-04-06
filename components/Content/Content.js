@@ -1,9 +1,17 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ContentItem } from "./ContentItem"
+import { ContentItem } from "./ContentItem";
 
 export default function Content({ title, data }) {
   const dataList = () => {
-    return data.map(e => <ContentItem category={e.category} info={e.info} key={e.category} />);
+    return data.map((e) => (
+      <ContentItem
+        category={e.category}
+        subCategory={e.subCategory}
+        dateStr={e.dateStr}
+        info={e.info}
+        key={e.category}
+      />
+    ));
   };
 
   return (
@@ -14,7 +22,6 @@ export default function Content({ title, data }) {
         </Col>
       </Row>
       {dataList()}
-      
     </Container>
   );
 }

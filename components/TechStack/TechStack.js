@@ -55,7 +55,6 @@ export default function TechStack() {
     <Container id="TechStack_id" className="content-margin">
       <Content title={"Tech Stack"} data={techData} />
 
-
       {/*
       // in version 3 card select animation
       <CardColumns>
