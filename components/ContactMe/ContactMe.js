@@ -13,14 +13,14 @@ export default function ContactMe() {
   return (
     <Container style={{minHeight: windowHeight}}>
       <Row className={`justify-content-center align-items-center ${styles.introStyle}`}>
-        <Col xs={9} sm={7} md={5}>
+        <Col xs={9} sm={6} md={5} lg={4} xl={3}>
         <div className={styles.helloStyle}>안녕하세요!</div>
             <h5 style={{fontWeight: "lighter"}}>도전을 좋아하는 개발자,</h5>
             <h5 style={{fontWeight: "lighter"}}><div className={styles.nameStyle}>이병훈</div> 입니다</h5>
             </Col>
       </Row>
         <Row className={`justify-content-center align-items-center ${styles.contentMargin}`}>
-          <Col xs={8} sm={6} md={4}>
+          <Col xs={7} sm={6} md={5} lg={4} xl={3}>
             <Image
               src="/my-img/my-circle-cropped.png"
               width={1080}
@@ -29,7 +29,7 @@ export default function ContactMe() {
               alt="Byunghun's image"
             />
           </Col>
-          <Col xs={11} sm={6} md={5} className={styles.infoMargin}>
+          <Col xs={9} sm={7} md={6} lg={5} xl={4} className={styles.infoMargin}>
             <h3>Contact & Channel</h3>
 
             <ul className={styles.listStyle}>
