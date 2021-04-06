@@ -7,7 +7,7 @@ export default function ContactMe() {
   const [windowHeight, setWindowHeight] = useState(null);
 
   useEffect(() => {
-    setWindowHeight(window.screen.availHeight - 240);
+    setWindowHeight(window.screen.availHeight - 220);
   }, [])
 
   return (
