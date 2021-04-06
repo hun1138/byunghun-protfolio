@@ -9,19 +9,55 @@ import {
 } from "react-bootstrap";
 import { TechStackItem } from "./TechStackItem";
 
+import { Content } from "../Content";
+
 export default function TechStack() {
-  /*
-  Language : C, C++, C#, Java, Python, Javascript, Typescript, Flex, Actionscript, MySQL, HTML5, CSS3
-Framework : Flask, Django, VueJS, ReactJS, React-Native, NextJS, ExpressJS, Spring boot
-Tool : Unity, GIthub, Android, Trello, Slack, Nexacro
-Other : CNN, YOLO, tensorflow, AWS Lambda
-  */
+  const techData = [
+    {
+      category: "Language",
+      info: [
+        "Python3.x",
+        "Javascript(ES6)",
+        "Typescript",
+        "C",
+        "C++",
+        "C#",
+        "Java",
+      ],
+    },
+    {
+      category: "Front-End",
+      info: ["React.js", "Vue.js", "Next.js", "HTML5", "CSS3"],
+    },
+    {
+      category: "Back-End",
+      info: ["Django", "Flask", "Express.js", "Spring boot", "MySQL"],
+    },
+    {
+      category: "Mobile",
+      info: ["React Native", "Android"],
+    },
+    {
+      category: "Game",
+      info: ["Unity"],
+    },
+    {
+      category: "Collaboration",
+      info: ["Slack", "Trello", "Git"],
+    },
+    {
+      category: "AI",
+      info: ["YOLO", "CNN", "tensorflow"],
+    },
+  ];
+
   return (
     <Container id="TechStack_id" className="content-margin">
-      <Col md={12} className="content-title">
-        <h2>Tech Stack</h2>
-      </Col>
+      <Content title={"Tech Stack"} data={techData} />
 
+
+      {/*
+      // in version 3 card select animation
       <CardColumns>
         <CardDeck onMouseEnter={() => console.log("javascript")}>
           <TechStackItem
@@ -103,6 +139,7 @@ Other : CNN, YOLO, tensorflow, AWS Lambda
           content={"card content 5"}
         />
       </CardColumns>
+      */}
     </Container>
   );
 }
