@@ -24,7 +24,7 @@ export default function Home() {
         />
 
         <title>Byunghun's Portfolio - Developer</title>
-        <link rel="icon" href="/favicon-img/color-B.png" />
+        <link rel="icon" href="/favicon-img/letter-b-1.png" />
 
         <link
           rel="stylesheet"
