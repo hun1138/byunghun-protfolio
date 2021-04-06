@@ -5,15 +5,15 @@ export default function ContentItem({ category, subCategory, info, dateStr }) {
   const infoList = () => {
     return (
       <ul>
-        {info.map((e) => {
+        {info.map((e, i) => {
           if (typeof e === "string") {
             return (
-              <li key={e} className="content-info-text">
+              <li key={e + i} className="content-info-text">
                 {e}
               </li>);
           } else {
             return (
-              <React.Fragment key={e.title}>
+              <React.Fragment key={e.title + i}>
                 <li className="content-info-title">
                   {e.title}
                 </li>

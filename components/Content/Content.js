@@ -3,13 +3,13 @@ import { ContentItem } from "./ContentItem";
 
 export default function Content({ title, data }) {
   const dataList = () => {
-    return data.map((e) => (
+    return data.map((e, i) => (
       <ContentItem
         category={e.category}
         subCategory={e.subCategory}
         dateStr={e.dateStr}
         info={e.info}
-        key={e.category}
+        key={e.category + i}
       />
     ));
   };

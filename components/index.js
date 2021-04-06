@@ -8,6 +8,7 @@ import { TechStack } from "./TechStack";
 
 import { WorkExperience } from "./WorkExperience";
 import { Education } from "./Education";
+import { Awards } from "./Awards";
 
 import { Timeline } from "./Timeline";
 
@@ -17,5 +18,5 @@ export { PortNavbar };
 export { Introduction };
 export { ContactMe };
 export { AboutMe, TechStack, Timeline };
-export { WorkExperience, Education };
+export { WorkExperience, Education, Awards };
 export { Footer };
