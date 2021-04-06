@@ -17,7 +17,7 @@ export default function Content({ title, data }) {
   return (
     <Container id="AboutMe_id" className="content-margin">
       <Row className="justify-content-center">
-        <Col>
+        <Col xs={12} sm={10} md={12} lg={8}>
           <div className="content-title">{title}</div>
         </Col>
       </Row>
