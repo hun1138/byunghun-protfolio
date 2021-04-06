@@ -17,4 +17,4 @@
 ```
 
 ## Deploy
->[Next js deployment 문서](https://nextjs.org/docs/deployment)에서 권장하는 방법중 하나인 [Vercel](https://vercel.com/)에 배포함
+>[Next js deployment 문서](https://nextjs.org/docs/deployment)에서 권장하는 방법인 [Vercel](https://vercel.com/)에 배포함
