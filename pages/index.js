@@ -43,7 +43,8 @@ export default function Home() {
         <AboutMe />
         <TechStack />
         <WorkExperience />
-        <Timeline />
+        <Education />
+        {/*<Timeline />*/}
       </main>
 
       <Footer />
