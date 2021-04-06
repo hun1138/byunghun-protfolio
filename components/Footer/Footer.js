@@ -1,4 +1,4 @@
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Footer.module.css";
 
 export default function Footer() {
@@ -13,24 +13,26 @@ export default function Footer() {
     */
   return (
     <footer className={styles.footer}>
-      <Row>
-        <Col md={4}>
+      <Container>
+      <Row className="justify-content-center">
+        <Col xs={4} sm={3} md={2} lg={2} xl={2}>
           <small>Created by</small>
           <h6>Byunghun Lee</h6>
         </Col>
-        <Col md={4}>
+        <Col xs={4} sm={3} md={2} lg={2} xl={2}>
           <small>Version</small>
           <h6>version 2.0</h6>
         </Col>
-        <Col md={4}>
+        <Col xs={4} sm={3} md={2} lg={2} xl={2}>
           <small>Made with</small>
-          <ul>
+          <ul style={{paddingLeft: "20px"}}>
             <li>React.js</li>
             <li>Next.js</li>
             <li>Bootstrap</li>
           </ul>
         </Col>
       </Row>
+      </Container>
     </footer>
   );
 }

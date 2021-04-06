@@ -35,12 +35,12 @@ export default function ContentItem({ category, subCategory, info, dateStr }) {
 
   return (
     <Row className="justify-content-center" style={{ margin: "15px 0 15px 0" }}>
-      <Col xs={10} sm={5} md={4} lg={3}>
+      <Col xs={12} sm={10} md={6} lg={4} style={{ paddingBottom: "15px" }}>
         <div className="content-subtitle">{category}</div>
         {subCategory && <div className="content-subCategory">{subCategory}</div>}
         {dateStr && <div className="content-date">{dateStr}</div>}
       </Col>
-      <Col xs={12} sm={10} md={6} lg={4} style={{ paddingTop: "0" }}>
+      <Col xs={12} sm={10} md={6} lg={4}>
         {infoList()}
       </Col>
     </Row>
