@@ -18,7 +18,7 @@ export default function AboutMe() {
     },
   ];
   return (
-    <Container id="AboutMe_id" className="content-margin">
+    <Container id="AboutMe_id" className="content-margin content-scroll-margin">
       <Content title={"About Me"} data={aboutData} />
     </Container>
   );

@@ -62,7 +62,7 @@ export default function WorkExperience() {
     },
     {
       category: "사이버사령부",
-      subCategory: "군복무",
+      subCategory: "소프트웨어 개발병 군복무",
       info: [
         {
           title: "웹 위협 관제 체계",
@@ -74,7 +74,7 @@ export default function WorkExperience() {
     },
   ];
   return (
-    <Container id="WorkExperience_id" className="content-margin">
+    <Container id="WorkExperience_id" className="content-margin content-scroll-margin">
       <Content title={"Work Experience"} data={data} />
     </Container>
   );

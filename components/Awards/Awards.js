@@ -44,7 +44,7 @@ export default function Awards() {
     },
   ];
   return (
-    <Container id="Awards_id" className="content-margin">
+    <Container id="Awards_id" className="content-margin content-scroll-margin">
       <Content title={"Awards"} data={data} />
     </Container>
   );

@@ -5,7 +5,7 @@ export default function PortNavbar() {
   return (
     <Navbar className={styles.navbarBackground} expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="#Introduction_id">
+        <Navbar.Brand href="#ContactMe_id">
           Byunghun Lee's Portfolio
         </Navbar.Brand>
         <Nav className="ml-auto">
@@ -16,7 +16,13 @@ export default function PortNavbar() {
             <Nav.Link href="#TechStack_id">Tech Stack</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#Timeline_id">Timeline</Nav.Link>
+            <Nav.Link href="#WorkExperience_id">Work Experience</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="#Awards_id">Awards</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="#Education_id">Education</Nav.Link>
           </Nav.Item>
         </Nav>
       </Container>

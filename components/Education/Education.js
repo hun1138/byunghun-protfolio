@@ -45,7 +45,7 @@ export default function Education() {
     },
   ];
   return (
-    <Container id="Education_id" className="content-margin">
+    <Container id="Education_id" className="content-margin content-scroll-margin">
       <Content title={"Education"} data={data} />
     </Container>
   );

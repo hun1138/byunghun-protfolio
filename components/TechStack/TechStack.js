@@ -52,7 +52,7 @@ export default function TechStack() {
   ];
 
   return (
-    <Container id="TechStack_id" className="content-margin">
+    <Container id="TechStack_id" className="content-margin content-scroll-margin">
       <Content title={"Tech Stack"} data={techData} />
 
       {/*
