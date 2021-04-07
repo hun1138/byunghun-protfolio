@@ -37,7 +37,8 @@ export default function Education() {
       info: [
         {
           title: "인공지능 국비과정 교육 수료",
-          text: `- 시각장애인 보행도우미 앱 개발`,
+          text: `- 시각장애인 보행도우미 앱 개발
+          - Yolo v2를 이용하여 영상 사물인식 안드로이드 앱 개발`,
         },
       ],
       dateStr: "2019.05 ~ 2019.11",
