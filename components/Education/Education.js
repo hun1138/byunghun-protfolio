@@ -10,7 +10,7 @@ export default function Education() {
         {
           title: "ACM-ICPC",
           text: `- 세계 대학생 프로그래밍 대회
-          - ACM-ICPC 교내 예선 최고 3등 (본선 진출권 획득), 평균 5등 유지
+          - ACM-ICPC 교내 예선 최고 3등 (본선 진출권 획득), 평균 7등 유지
           - 알고리즘 스터디 약 2년간 운영`,
         },
         {
@@ -33,7 +33,7 @@ export default function Education() {
       dateStr: "2011.03 ~ 2020.02",
     },
     {
-      category: "실용 중심의 인고지능 개발자 양성과정 2기 교육과정",
+      category: "실용 중심의 인공지능 개발자 양성과정 2기 교육과정",
       info: [
         {
           title: "인공지능 국비과정 교육 수료",
